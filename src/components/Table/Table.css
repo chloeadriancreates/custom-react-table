@@ -1,0 +1,116 @@
+.table-container {
+    font-family: inherit;
+}
+
+.table {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.table-header {
+    background-color: var(--bright);
+}
+
+.table-header-cell {
+    color: var(--text);
+    padding: 10px;
+}
+
+.table-row:nth-child(2n) {
+    background-color: var(--light);
+}
+
+.table-row-cell {
+    padding: 10px;
+}
+
+.table-header-sort {
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.table-header-sort-icon-box {
+    position: relative;
+    margin-left: 10px;
+}
+
+.table-header-sort-icon:first-of-type {
+    position: absolute;
+}
+
+.table-header-sort-icon-hidden {
+    opacity: 0;
+}
+
+.table-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-container-header-select {
+    margin: 0 10px;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 3px;
+    border: 1px solid var(--bright);
+}
+
+.table-container-header-search-input {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 3px;
+    margin-left: 10px;
+    border: 1px solid var(--bright);
+}
+
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-footer-counter {
+    margin: 0;
+}
+
+.table-footer-nav-counter {
+    margin: 0 10px;
+}
+
+.table-footer-nav-button {
+    background: var(--bright);
+    color: var(--text);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    box-shadow: none;
+    border: solid 2px var(--bright);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+  
+.table-footer-nav-button:hover, .table-footer-nav-button:focus {
+    background: white;
+    color: var(--bright);
+}
+
+.table-error {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
