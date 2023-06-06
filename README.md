@@ -8,7 +8,7 @@
 
 ![Table screenshot](https://github.com/chloeadriancreates/custom-react-table/blob/main/screenshot.png?raw=true)
 
-This 32kb component allows you to display complex data into a clean table, complete with pagination, a search system and sorting by each category. Let's see how it works!
+This 18kb React component allows you to display complex data into a clean table, complete with pagination, a search system and sorting by each category. Let's see how it works!
 
 ## Getting started
 
