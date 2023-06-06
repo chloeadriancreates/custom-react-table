@@ -10,6 +10,12 @@
 
 This 18kb React component allows you to display complex data into a clean table, complete with pagination, a search system and sorting by each category. Let's see how it works!
 
+## Prerequisites
+- [NodeJS (version 16.17.0)](https://nodejs.org/en/)
+- [NPM (version 9.4.0)](https://www.npmjs.com/)
+- [React (version 18.2.0)](https://react.dev/)
+- [Day.js (version 1.11.8)](https://day.js.org/)
+
 ## Getting started
 
 ### Installation
@@ -40,7 +46,7 @@ A color theme is calculated based on one main color, which is by default a mediu
     <Table content={content} color="#577399" />
   
 ### Date format
-The `Table` component automatically detects dates (passed as ISO strings), and formats them by default in "DD/MM/YYYY" using [dayjs](https://day.js.org/en/). You can use any other valid dayjs [parsing token](https://day.js.org/docs/en/parse/string-format) by passing it to the `dateFormat` prop.
+The `Table` component automatically detects dates (passed as ISO strings), and formats them by default in "DD/MM/YYYY" using [Day.js](https://day.js.org/en/). You can use any other valid Day.js [parsing token](https://day.js.org/docs/en/parse/string-format) by passing it to the `dateFormat` prop.
 
     <Table content={content} dateFormat="MM/DD/YY" />
     
