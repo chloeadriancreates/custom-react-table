@@ -266,7 +266,7 @@ export function Table({ content, color, dateFormat, objectKey }) {
                                     setFilteredContent(sortContent(filteredContent, category.category, true));
                                     toggleSortOrder(category.category);
                                 }}>
-                                    <h3>{category.formattedCategory}</h3>
+                                    <h2>{category.formattedCategory}</h2>
                                     <div className="table-header-sort-icon-box">
                                         <i className={ sorting[category.category] !== "descending" ? "table-header-sort-icon fa-solid fa-sort-up" : "table-header-sort-icon fa-solid fa-sort-up  table-header-sort-icon-hidden" }></i>
                                         <i className={ sorting[category.category] !== "ascending" ? "table-header-sort-icon fa-solid fa-sort-down" : "table-header-sort-icon fa-solid fa-sort-down  table-header-sort-icon-hidden" }></i>

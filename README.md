@@ -14,7 +14,6 @@ This 18kb React component allows you to display complex data into a clean table,
 - [NodeJS (version 16.17.0)](https://nodejs.org/en/)
 - [NPM (version 9.4.0)](https://www.npmjs.com/)
 - [React (version 18.2.0)](https://react.dev/)
-- [Day.js (version 1.11.8)](https://day.js.org/)
 
 ## Getting started
 
