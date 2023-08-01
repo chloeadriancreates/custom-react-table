@@ -1,9 +1,10 @@
 ![Banner](READMEbanner.jpg)
-![Table screenshot](https://github.com/chloeadriancreates/custom-react-table/blob/main/screenshot.png?raw=true)
 
 # Need a light, customizable and easy-to-use table component to display data in your React app? Look no further!
 
 This 18kb React component allows you to display complex data into a clean table, complete with pagination, a search system and sorting by each category. Let's see how it works!
+
+![Table screenshot](https://github.com/chloeadriancreates/custom-react-table/blob/main/screenshot.png?raw=true)
 
 ## Prerequisites
 - [NodeJS (version 16.17.0)](https://nodejs.org/en/)
