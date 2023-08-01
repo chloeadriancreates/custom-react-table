@@ -1,11 +1,7 @@
-![NodeJS](https://img.shields.io/badge/-NodeJS-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=react&logoColor=black)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Banner](READMEbanner.jpg)
+![Table screenshot](https://github.com/chloeadriancreates/custom-react-table/blob/main/screenshot.png?raw=true)
 
 # Need a light, customizable and easy-to-use table component to display data in your React app? Look no further!
-
-![Table screenshot](https://github.com/chloeadriancreates/custom-react-table/blob/main/screenshot.png?raw=true)
 
 This 18kb React component allows you to display complex data into a clean table, complete with pagination, a search system and sorting by each category. Let's see how it works!
 
